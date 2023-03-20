@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="135dp"
+    android:layout_width="390dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Card_View"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="6dp"
+        android:padding="4dp"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#B2BABB">
+
+            <ImageView
+                android:id="@+id/img_foto"
+                android:layout_marginTop="12dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textAlignment="center"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/logo_gse"
+                android:background="@color/black">
+
+            </ImageView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#B2BABB">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#B2BABB">
+
+                    <TextView
+                        android:id="@+id/id"
+                        android:layout_width="65dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/atma_medium"
+                        android:hint="ID:"
+                        android:textColor="@color/black"
+                        android:text="ID:">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/text_id"
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/atma_light"
+                        android:hint="ID"
+                        android:textColor="@color/black"
+                        android:text="ID"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#B2BABB">
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="65dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/atma_medium"
+                        android:textColor="@color/black"
+                        android:hint="Name:      "
+                        android:text="Name: "></TextView>
+
+                    <TextView
+                        android:id="@+id/text_name"
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/atma_light"
+                        android:hint="Nombre"
+                        android:textColor="@color/black"
+                        android:text="Nombre">
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#B2BABB">
+
+                    <TextView
+                        android:id="@+id/userName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/atma_medium"
+                        android:textColor="@color/black"
+                        android:hint="UserName"
+                        android:text="UserName: "></TextView>
+
+                    <TextView
+                        android:id="@+id/text_user_name"
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/atma_light"
+                        android:textColor="@color/black"
+                        android:hint="Nombre"
+                        android:text="Nombre">
+
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#B2BABB">
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_width="65dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/atma_medium"
+                        android:textColor="@color/black"
+                        android:hint="email"
+                        android:text="Email: "></TextView>
+
+                    <TextView
+                        android:id="@+id/text_email"
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/atma_light"
+                        android:hint="email"
+                        android:textColor="@color/black"
+                        android:text="email"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#B2BABB">
+
+                    <TextView
+                        android:id="@+id/phone"
+                        android:layout_width="65dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/atma_medium"
+                        android:hint="Phone"
+                        android:textColor="@color/black"
+                        android:text="Phone: "></TextView>
+
+                    <TextView
+                        android:id="@+id/text_phone"
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/atma_light"
+                        android:textColor="@color/black"
+                        android:hint="phone"
+                        android:text="phone"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#B2BABB">
+
+                    <TextView
+                        android:id="@+id/website"
+                        android:layout_width="65dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/atma_medium"
+                        android:textColor="@color/black"
+                        android:hint="WebSite"
+                        android:text="WebSite: "></TextView>
+
+                    <TextView
+                        android:id="@+id/text_website"
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/atma_light"
+                        android:textColor="@color/black"
+                        android:hint="website"
+                        android:text="website"></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
